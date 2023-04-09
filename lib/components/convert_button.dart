@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ConvertButton extends StatelessWidget {
   final Function onTap;
-  ConvertButton({super.key, required this.onTap});
+  const ConvertButton({super.key, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
